@@ -1,0 +1,16 @@
+{
+  "name": "chrome-133-headless-visibility",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "npx mocha page.test.js",
+    "test-headless": "npm test -- --headless"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^11.1.0",
+    "selenium-webdriver": "^4.29.0"
+  }
+}
